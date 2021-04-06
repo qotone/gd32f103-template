@@ -1,0 +1,1406 @@
+Dependencies for Project 'project', Target 'rt-thread': (DO NOT MODIFY !)
+F (../../../src/clock.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\clock.o --omf_browse .\build\keil\obj\clock.crf --depend .\build\keil\obj\clock.d)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+F (../../../src/components.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\components.o --omf_browse .\build\keil\obj\components.crf --depend .\build\keil\obj\components.d)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+F (../../../src/device.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\device.o --omf_browse .\build\keil\obj\device.crf --depend .\build\keil\obj\device.d)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+F (../../../src/idle.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\idle.o --omf_browse .\build\keil\obj\idle.crf --depend .\build\keil\obj\idle.d)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+F (../../../src/ipc.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\ipc.o --omf_browse .\build\keil\obj\ipc.crf --depend .\build\keil\obj\ipc.d)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../include/rthw.h)(0x5EBB9D08)
+F (../../../src/irq.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\irq.o --omf_browse .\build\keil\obj\irq.crf --depend .\build\keil\obj\irq.d)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+F (../../../src/kservice.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\kservice.o --omf_browse .\build\keil\obj\kservice.crf --depend .\build\keil\obj\kservice.d)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../include/rthw.h)(0x5EBB9D08)
+F (../../../src/mem.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\mem.o --omf_browse .\build\keil\obj\mem.crf --depend .\build\keil\obj\mem.d)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+F (../../../src/mempool.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\mempool.o --omf_browse .\build\keil\obj\mempool.crf --depend .\build\keil\obj\mempool.d)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+F (../../../src/object.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\object.o --omf_browse .\build\keil\obj\object.crf --depend .\build\keil\obj\object.d)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../include/rthw.h)(0x5EBB9D08)
+F (../../../src/scheduler.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\scheduler.o --omf_browse .\build\keil\obj\scheduler.crf --depend .\build\keil\obj\scheduler.d)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../include/rthw.h)(0x5EBB9D08)
+F (../../../src/signal.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\signal.o --omf_browse .\build\keil\obj\signal.crf --depend .\build\keil\obj\signal.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+F (../../../src/thread.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\thread.o --omf_browse .\build\keil\obj\thread.crf --depend .\build\keil\obj\thread.d)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../include/rthw.h)(0x5EBB9D08)
+F (../../../src/timer.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\timer.o --omf_browse .\build\keil\obj\timer.crf --depend .\build\keil\obj\timer.d)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../include/rthw.h)(0x5EBB9D08)
+F (applications/main.c)(0x6069BA41)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\main.o --omf_browse .\build\keil\obj\main.crf --depend .\build\keil\obj\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+F (board/board.c)(0x6069CB8D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\board.o --omf_browse .\build\keil\obj\board.crf --depend .\build\keil\obj\board.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_adc.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_adc.o --omf_browse .\build\keil\obj\gd32f10x_adc.crf --depend .\build\keil\obj\gd32f10x_adc.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_bkp.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_bkp.o --omf_browse .\build\keil\obj\gd32f10x_bkp.crf --depend .\build\keil\obj\gd32f10x_bkp.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_can.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_can.o --omf_browse .\build\keil\obj\gd32f10x_can.crf --depend .\build\keil\obj\gd32f10x_can.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_crc.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_crc.o --omf_browse .\build\keil\obj\gd32f10x_crc.crf --depend .\build\keil\obj\gd32f10x_crc.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_crc.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_dac.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_dac.o --omf_browse .\build\keil\obj\gd32f10x_dac.crf --depend .\build\keil\obj\gd32f10x_dac.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dac.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_dbg.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_dbg.o --omf_browse .\build\keil\obj\gd32f10x_dbg.crf --depend .\build\keil\obj\gd32f10x_dbg.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_dma.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_dma.o --omf_browse .\build\keil\obj\gd32f10x_dma.crf --depend .\build\keil\obj\gd32f10x_dma.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_enet.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_enet.o --omf_browse .\build\keil\obj\gd32f10x_enet.crf --depend .\build\keil\obj\gd32f10x_enet.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_enet.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_exmc.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_exmc.o --omf_browse .\build\keil\obj\gd32f10x_exmc.crf --depend .\build\keil\obj\gd32f10x_exmc.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_exmc.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_exti.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_exti.o --omf_browse .\build\keil\obj\gd32f10x_exti.crf --depend .\build\keil\obj\gd32f10x_exti.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_exti.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_fmc.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_fmc.o --omf_browse .\build\keil\obj\gd32f10x_fmc.crf --depend .\build\keil\obj\gd32f10x_fmc.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fmc.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_fwdgt.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_fwdgt.o --omf_browse .\build\keil\obj\gd32f10x_fwdgt.crf --depend .\build\keil\obj\gd32f10x_fwdgt.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_gpio.o --omf_browse .\build\keil\obj\gd32f10x_gpio.crf --depend .\build\keil\obj\gd32f10x_gpio.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_i2c.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_i2c.o --omf_browse .\build\keil\obj\gd32f10x_i2c.crf --depend .\build\keil\obj\gd32f10x_i2c.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_i2c.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_misc.o --omf_browse .\build\keil\obj\gd32f10x_misc.crf --depend .\build\keil\obj\gd32f10x_misc.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_pmu.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_pmu.o --omf_browse .\build\keil\obj\gd32f10x_pmu.crf --depend .\build\keil\obj\gd32f10x_pmu.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_rcu.o --omf_browse .\build\keil\obj\gd32f10x_rcu.crf --depend .\build\keil\obj\gd32f10x_rcu.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rtc.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_rtc.o --omf_browse .\build\keil\obj\gd32f10x_rtc.crf --depend .\build\keil\obj\gd32f10x_rtc.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_sdio.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_sdio.o --omf_browse .\build\keil\obj\gd32f10x_sdio.crf --depend .\build\keil\obj\gd32f10x_sdio.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_sdio.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_spi.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_spi.o --omf_browse .\build\keil\obj\gd32f10x_spi.crf --depend .\build\keil\obj\gd32f10x_spi.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_timer.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_timer.o --omf_browse .\build\keil\obj\gd32f10x_timer.crf --depend .\build\keil\obj\gd32f10x_timer.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_usart.o --omf_browse .\build\keil\obj\gd32f10x_usart.crf --depend .\build\keil\obj\gd32f10x_usart.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_wwdgt.c)(0x6048767E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\gd32f10x_wwdgt.o --omf_browse .\build\keil\obj\gd32f10x_wwdgt.crf --depend .\build\keil\obj\gd32f10x_wwdgt.d)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+F (Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.c)(0x5DDF60C7)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\system_gd32f10x.o --omf_browse .\build\keil\obj\system_gd32f10x.crf --depend .\build\keil\obj\system_gd32f10x.d)
+I (Libraries/CMSIS/GD/GD32F10x/Include/gd32f10x.h)(0x5DDF60C8)
+I (Libraries/CMSIS/core_cm3.h)(0x5DDF60C8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (Libraries/CMSIS/core_cmInstr.h)(0x532BF7C2)
+I (Libraries/CMSIS/core_cmFunc.h)(0x532BF7C2)
+I (Libraries/CMSIS/GD/GD32F10x/Include/system_gd32f10x.h)(0x5DDF60C8)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_libopt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/RTE_Components.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_adc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_bkp.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_can.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dbg.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_dma.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_fwdgt.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_gpio.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_misc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_pmu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rcu.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_rtc.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_spi.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_timer.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_usart.h)(0x6048767E)
+I (Libraries/GD32F10x_standard_peripheral/Include/gd32f10x_wwdgt.h)(0x6048767E)
+F (Libraries/CMSIS/GD/GD32F10x/Source/ARM/startup_gd32f10x_hd.s)(0x5DDF60C7)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\build\keil\list\startup_gd32f10x_hd.lst --xref -o .\build\keil\obj\startup_gd32f10x_hd.o --depend .\build\keil\obj\startup_gd32f10x_hd.d)
+F (../../../libcpu/arm/cortex-m3/cpuport.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\cpuport.o --omf_browse .\build\keil\obj\cpuport.crf --depend .\build\keil\obj\cpuport.d)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+F (../../../libcpu/arm/cortex-m3/context_rvds.S)(0x5EBB9D08)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\build\keil\list\context_rvds.lst --xref -o .\build\keil\obj\context_rvds.o --depend .\build\keil\obj\context_rvds.d)
+F (../../../libcpu/arm/common/backtrace.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\backtrace.o --omf_browse .\build\keil\obj\backtrace.crf --depend .\build\keil\obj\backtrace.d)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+F (../../../libcpu/arm/common/div0.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\div0.o --omf_browse .\build\keil\obj\div0.crf --depend .\build\keil\obj\div0.d)
+F (../../../libcpu/arm/common/showmem.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\showmem.o --omf_browse .\build\keil\obj\showmem.crf --depend .\build\keil\obj\showmem.d)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+F (../../../components/drivers/misc/pin.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\pin.o --omf_browse .\build\keil\obj\pin.crf --depend .\build\keil\obj\pin.d)
+I (../../../components/drivers/include/drivers/pin.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../components/drivers/include/rtdevice.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringbuffer.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/completion.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/dataqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/workqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/waitqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/pipe.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/poll.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringblk_buf.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/serial.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+F (../../../components/drivers/serial/serial.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\serial.o --omf_browse .\build\keil\obj\serial.crf --depend .\build\keil\obj\serial.d)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../components/drivers/include/rtdevice.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringbuffer.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/completion.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/dataqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/workqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/waitqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/pipe.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/poll.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringblk_buf.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/serial.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/pin.h)(0x5EBB9D08)
+I (../../../include/rtdbg.h)(0x5EBB9D08)
+F (../../../components/drivers/src/completion.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\completion.o --omf_browse .\build\keil\obj\completion.crf --depend .\build\keil\obj\completion.d)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../components/drivers/include/rtdevice.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringbuffer.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/completion.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/dataqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/workqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/waitqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/pipe.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/poll.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringblk_buf.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/serial.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/pin.h)(0x5EBB9D08)
+F (../../../components/drivers/src/dataqueue.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\dataqueue.o --omf_browse .\build\keil\obj\dataqueue.crf --depend .\build\keil\obj\dataqueue.d)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../components/drivers/include/rtdevice.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringbuffer.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/completion.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/dataqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/workqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/waitqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/pipe.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/poll.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringblk_buf.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/serial.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/pin.h)(0x5EBB9D08)
+I (../../../include/rthw.h)(0x5EBB9D08)
+F (../../../components/drivers/src/pipe.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\pipe.o --omf_browse .\build\keil\obj\pipe.crf --depend .\build\keil\obj\pipe.d)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../components/drivers/include/rtdevice.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringbuffer.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/completion.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/dataqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/workqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/waitqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/pipe.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/poll.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringblk_buf.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/serial.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/pin.h)(0x5EBB9D08)
+F (../../../components/drivers/src/ringblk_buf.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\ringblk_buf.o --omf_browse .\build\keil\obj\ringblk_buf.crf --depend .\build\keil\obj\ringblk_buf.d)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../components/drivers/include/rtdevice.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringbuffer.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/completion.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/dataqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/workqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/waitqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/pipe.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/poll.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringblk_buf.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/serial.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/pin.h)(0x5EBB9D08)
+F (../../../components/drivers/src/ringbuffer.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\ringbuffer.o --omf_browse .\build\keil\obj\ringbuffer.crf --depend .\build\keil\obj\ringbuffer.d)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../components/drivers/include/rtdevice.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringbuffer.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/completion.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/dataqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/workqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/waitqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/pipe.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/poll.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringblk_buf.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/serial.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/pin.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+F (../../../components/drivers/src/waitqueue.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\waitqueue.o --omf_browse .\build\keil\obj\waitqueue.crf --depend .\build\keil\obj\waitqueue.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../components/drivers/include/rtdevice.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringbuffer.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/completion.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/dataqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/workqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/waitqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/pipe.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/poll.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringblk_buf.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/serial.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/pin.h)(0x5EBB9D08)
+F (../../../components/drivers/src/workqueue.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\workqueue.o --omf_browse .\build\keil\obj\workqueue.crf --depend .\build\keil\obj\workqueue.d)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../components/drivers/include/rtdevice.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringbuffer.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/completion.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/dataqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/workqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/waitqueue.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/pipe.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/poll.h)(0x5EBB9D08)
+I (../../../components/drivers/include/ipc/ringblk_buf.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/serial.h)(0x5EBB9D08)
+I (../../../components/drivers/include/drivers/pin.h)(0x5EBB9D08)
+F (../../../components/finsh/shell.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\shell.o --omf_browse .\build\keil\obj\shell.crf --depend .\build\keil\obj\shell.d)
+I (../../../include/rthw.h)(0x5EBB9D08)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (../../../components/finsh/shell.h)(0x5EBB9D08)
+I (../../../components/finsh/msh.h)(0x5EBB9D08)
+F (../../../components/finsh/cmd.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\cmd.o --omf_browse .\build\keil\obj\cmd.crf --depend .\build\keil\obj\cmd.d)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+F (../../../components/finsh/msh.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\msh.o --omf_browse .\build\keil\obj\msh.crf --depend .\build\keil\obj\msh.d)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)
+I (../../../components/finsh/msh.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (../../../components/finsh/shell.h)(0x5EBB9D08)
+F (../../../components/libc/compilers/common/time.c)(0x5EBB9D08)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I. -I../../../include -Iapplications -Iboard -ILibraries/CMSIS/GD/GD32F10x/Include -ILibraries/CMSIS -ILibraries/GD32F10x_standard_peripheral/Include -I../../../libcpu/arm/cortex-m3 -I../../../libcpu/arm/common -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/drivers/include -I../../../components/finsh -I../../../components/libc/compilers/common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DGD32F10X_HD -DGD32F103xE -DUSE_STDPERIPH_DRIVER-o .\build\keil\obj\time.o --omf_browse .\build\keil\obj\time.crf --depend .\build\keil\obj\time.d)
+I (../../../components/libc/compilers/common/sys/time.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (../../../include/rtthread.h)(0x5EBB9D08)
+I (.\rtconfig.h)(0x606975ED)
+I (../../../include/rtdebug.h)(0x5EBB9D08)
+I (../../../include/rtdef.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (../../../include/rtlibc.h)(0x5EBB9D08)
+I (../../../include/libc/libc_stat.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (../../../include/libc/libc_errno.h)(0x5EBB9D08)
+I (../../../include/libc/libc_fcntl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_ioctl.h)(0x5EBB9D08)
+I (../../../include/libc/libc_dirent.h)(0x5EBB9D08)
+I (../../../include/libc/libc_signal.h)(0x5EBB9D08)
+I (C:\Keil\ARM\ARMCC\include\signal.h)(0x51C7C554)
+I (../../../include/libc/libc_fdset.h)(0x5EBB9D08)
+I (../../../include/rtservice.h)(0x5EBB9D08)
+I (../../../include/rtm.h)(0x5EBB9D08)
+I (../../../components/finsh/finsh_api.h)(0x5EBB9D08)

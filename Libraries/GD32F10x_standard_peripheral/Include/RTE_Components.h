@@ -1,0 +1,36 @@
+
+/*
+ * Auto generated Run-Time-Environment Component Configuration File
+ *      *** Do not modify ! ***
+ *
+ * Project: '20d25' 
+ * Target:  'Target 1' 
+ */
+
+#ifndef RTE_COMPONENTS_H
+#define RTE_COMPONENTS_H
+
+
+/*
+ * Define the Device Header File: 
+ */
+#define CMSIS_device_header "gd32f10x.h"
+
+#define RTE_DEVICE_STDPERIPHERALS_ADC
+#define RTE_DEVICE_STDPERIPHERALS_BKP
+#define RTE_DEVICE_STDPERIPHERALS_DMA
+#define RTE_DEVICE_STDPERIPHERALS_FWDGT
+#define RTE_DEVICE_STDPERIPHERALS_GPIO
+#define RTE_DEVICE_STDPERIPHERALS_MISC
+#define RTE_DEVICE_STDPERIPHERALS_PMU
+#define RTE_DEVICE_STDPERIPHERALS_RCU
+#define RTE_DEVICE_STDPERIPHERALS_RTC
+#define RTE_DEVICE_STDPERIPHERALS_SPI
+#define RTE_DEVICE_STDPERIPHERALS_TIMER
+#define RTE_DEVICE_STDPERIPHERALS_USART
+#define RTE_DEVICE_STDPERIPHERALS_WWDGT
+#define RTE_DEVICE_STDPERIPHERALS_CAN
+#define RTE_DEVICE_STDPERIPHERALS_DBG
+#define RTE_USING_DEVICE
+
+#endif /* RTE_COMPONENTS_H */
