@@ -8,13 +8,10 @@ cwd = GetCurrentDir()
 # add general drivers
 src = Split('''
 board.c
+drv_usart.c
 ''')
 
 path =  [cwd]
-
-
-# startup_path_prefix = SDK_LIB
-
 
 # STM32F100xB || STM32F100xE || STM32F101x6
 # STM32F101xB || STM32F101xE || STM32F101xG

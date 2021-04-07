@@ -12,7 +12,7 @@
 #define __BOARD_H__
 
 #include <rtthread.h>
-#include <gd32f1xx.h>
+#include <gd32f10x.h>
 /* #include "drv_common.h" */
 /* #include "drv_gpio.h" */
 

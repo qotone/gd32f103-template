@@ -56,8 +56,8 @@ set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DLINUX -D_ARCH=arm -DSTM32F10X_CL -D_DEVTO
 # set(MPP_PATH /media/luoyang/Workspace/Hi3531DV100_SDK_V2.0.4.0/mpp)
 
 # rtthread libs
-# set(RTT_ROOT /mnt/f/GD32/rt-thread-3.1.4)
-set(RTT_ROOT /media/luoyang/Workspace/GD32/rt-thread-3.1.4)
+set(RTT_ROOT /mnt/f/GD32/rt-thread-3.1.4)
+# set(RTT_ROOT /media/luoyang/Workspace/GD32/rt-thread-3.1.4)
 
 # Create a sources variable with link to all c files to compile
 set(SOURCES

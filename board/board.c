@@ -11,6 +11,8 @@
 #include "stdint.h"
 #include <rthw.h>
 #include <rtthread.h>
+#include "drv_usart.h"
+
 
 #define _SCB_BASE       (0xE000E010UL)
 #define _SYSTICK_CTRL   (*(rt_uint32_t *)(_SCB_BASE + 0x0))
@@ -91,6 +93,7 @@ void rt_hw_board_init()
 #endif
 
 #if defined(RT_USING_CONSOLE) && defined(RT_USING_DEVICE)
+    gd32_hw_usart_init();
 	rt_console_set_device(RT_CONSOLE_DEVICE_NAME);
 #endif
 

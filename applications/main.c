@@ -1,14 +1,10 @@
 
 /* Includes ------------------------------------------------------------------*/
- #include <stdio.h>
-
+#include <stdio.h>
+#include <stdint.h>
+#include "rtconfig.h"
 #include "gd32f10x.h"
 #include "rtthread.h"
-
-
-
-
-
 
 
 int main(void)
@@ -28,8 +24,8 @@ int main(void)
 
 
 
-    gpio_init(GPIOB, GPIO_MODE_OUT_PP, GPIO_OSPEED_10MHZ, GPIO_PIN_8);
-    gpio_bit_set(GPIOB, GPIO_PIN_8);
+    gpio_init(GPIOA, GPIO_MODE_OUT_PP, GPIO_OSPEED_10MHZ, GPIO_PIN_0);
+    gpio_bit_set(GPIOA, GPIO_PIN_0);
 
 
 
@@ -37,11 +33,12 @@ int main(void)
     while (1)
     {
 
+        rt_kprintf("test");
         rt_thread_mdelay(1000);
 
-        gpio_bit_reset(GPIOB, GPIO_PIN_8);
+        gpio_bit_reset(GPIOA, GPIO_PIN_0);
         rt_thread_mdelay(1000);
-        gpio_bit_set(GPIOB, GPIO_PIN_8);
+        gpio_bit_set(GPIOA, GPIO_PIN_0);
         rt_thread_mdelay(1000);
     }
     /* USER CODE END 3 */
