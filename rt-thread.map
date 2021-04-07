@@ -106,8 +106,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 build/board/drv_usart.o
  .data          0x0000000000000000        0x0 build/board/drv_usart.o
  .bss           0x0000000000000000        0x0 build/board/drv_usart.o
- .text.rt_hw_usart_init
-                0x0000000000000000        0xe build/board/drv_usart.o
  .rti_fn.1      0x0000000000000000        0x4 build/board/drv_usart.o
  .text          0x0000000000000000        0x0 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_adc.o
  .data          0x0000000000000000        0x0 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_adc.o
@@ -3411,8 +3409,8 @@ LOAD /opt/gcc-arm-none-eabi-6_2-2016q4/bin/../lib/gcc/arm-none-eabi/6.2.1/thumb/
 .rodata         0x00000000080063d8     0x1e04
                 0x00000000080063d8                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x00000000080063d8        0x5 build/applications/main.o
- *fill*         0x00000000080063dd        0x3 
+ .rodata        0x00000000080063d8        0x7 build/applications/main.o
+ *fill*         0x00000000080063df        0x1 
  .rodata        0x00000000080063e0        0x6 build/board/board.o
  *fill*         0x00000000080063e6        0x2 
  .rodata        0x00000000080063e8       0x44 build/board/drv_usart.o
@@ -3449,19 +3447,19 @@ LOAD /opt/gcc-arm-none-eabi-6_2-2016q4/bin/../lib/gcc/arm-none-eabi/6.2.1/thumb/
  .rodata.uarts  0x0000000008007cfc       0x24 build/board/drv_usart.o
  .rodata.gd32_uart_ops
                 0x0000000008007d20       0x14 build/board/drv_usart.o
- .rodata.__FUNCTION__.7418
+ .rodata.__FUNCTION__.7420
                 0x0000000008007d34        0xf build/board/drv_usart.o
  *fill*         0x0000000008007d43        0x1 
- .rodata.__FUNCTION__.7435
+ .rodata.__FUNCTION__.7437
                 0x0000000008007d44        0xd build/board/drv_usart.o
  *fill*         0x0000000008007d51        0x3 
- .rodata.__FUNCTION__.7444
+ .rodata.__FUNCTION__.7446
                 0x0000000008007d54        0xa build/board/drv_usart.o
  *fill*         0x0000000008007d5e        0x2 
- .rodata.__FUNCTION__.7453
+ .rodata.__FUNCTION__.7455
                 0x0000000008007d60        0xa build/board/drv_usart.o
  *fill*         0x0000000008007d6a        0x2 
- .rodata.__FUNCTION__.7458
+ .rodata.__FUNCTION__.7460
                 0x0000000008007d6c        0x9 build/board/drv_usart.o
  *fill*         0x0000000008007d75        0x3 
  .rodata.__FUNCTION__.5253
@@ -3881,263 +3879,263 @@ LOAD /opt/gcc-arm-none-eabi-6_2-2016q4/bin/../lib/gcc/arm-none-eabi/6.2.1/thumb/
                 0x000000000000069b       0x1d /opt/gcc-arm-none-eabi-6_2-2016q4/bin/../lib/gcc/arm-none-eabi/6.2.1/thumb/v7-m/crtn.o
 OUTPUT(rtthread-gd32f10x.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000     0xfa8c
+.debug_info     0x0000000000000000     0xfa5d
  .debug_info    0x0000000000000000      0x2bf build/applications/main.o
- .debug_info    0x00000000000002bf      0x23e build/board/board.o
- .debug_info    0x00000000000004fd     0x1231 build/board/drv_usart.o
- .debug_info    0x000000000000172e      0x61a build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
- .debug_info    0x0000000000001d48      0x58c build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
- .debug_info    0x00000000000022d4      0xc9e build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
- .debug_info    0x0000000000002f72      0xbcf build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
- .debug_info    0x0000000000003b41      0x195 Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
- .debug_info    0x0000000000003cd6       0x90 Libraries/CMSIS/GD/GD32F10x/Source/GCC/startup_gd32f10x_hd.o
- .debug_info    0x0000000000003d66      0x4e7 build/kernel/src/clock.o
- .debug_info    0x000000000000424d      0x5f4 build/kernel/src/components.o
- .debug_info    0x0000000000004841      0x9e3 build/kernel/src/device.o
- .debug_info    0x0000000000005224      0x684 build/kernel/src/idle.o
- .debug_info    0x00000000000058a8     0x1b96 build/kernel/src/ipc.o
- .debug_info    0x000000000000743e      0x269 build/kernel/src/irq.o
- .debug_info    0x00000000000076a7     0x12b6 build/kernel/src/kservice.o
- .debug_info    0x000000000000895d      0x8af build/kernel/src/mem.o
- .debug_info    0x000000000000920c      0x81b build/kernel/src/object.o
- .debug_info    0x0000000000009a27      0x7e1 build/kernel/src/scheduler.o
- .debug_info    0x000000000000a208      0xd1a build/kernel/src/thread.o
- .debug_info    0x000000000000af22      0x961 build/kernel/src/timer.o
- .debug_info    0x000000000000b883      0x4d9 build/kernel/libcpu/arm/cortex-m3/cpuport.o
- .debug_info    0x000000000000bd5c       0x96 build/kernel/libcpu/arm/cortex-m3/context_gcc.o
- .debug_info    0x000000000000bdf2     0x129d build/kernel/components/drivers/serial/serial.o
- .debug_info    0x000000000000d08f      0x629 build/kernel/components/drivers/src/completion.o
- .debug_info    0x000000000000d6b8      0x84f build/kernel/components/drivers/src/dataqueue.o
- .debug_info    0x000000000000df07     0x18ef build/kernel/components/finsh/cmd.o
- .debug_info    0x000000000000f7f6      0x296 build/kernel/components/libc/compilers/minilibc/stdlib.o
+ .debug_info    0x00000000000002bf      0x22a build/board/board.o
+ .debug_info    0x00000000000004e9     0x1216 build/board/drv_usart.o
+ .debug_info    0x00000000000016ff      0x61a build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
+ .debug_info    0x0000000000001d19      0x58c build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
+ .debug_info    0x00000000000022a5      0xc9e build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
+ .debug_info    0x0000000000002f43      0xbcf build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
+ .debug_info    0x0000000000003b12      0x195 Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
+ .debug_info    0x0000000000003ca7       0x90 Libraries/CMSIS/GD/GD32F10x/Source/GCC/startup_gd32f10x_hd.o
+ .debug_info    0x0000000000003d37      0x4e7 build/kernel/src/clock.o
+ .debug_info    0x000000000000421e      0x5f4 build/kernel/src/components.o
+ .debug_info    0x0000000000004812      0x9e3 build/kernel/src/device.o
+ .debug_info    0x00000000000051f5      0x684 build/kernel/src/idle.o
+ .debug_info    0x0000000000005879     0x1b96 build/kernel/src/ipc.o
+ .debug_info    0x000000000000740f      0x269 build/kernel/src/irq.o
+ .debug_info    0x0000000000007678     0x12b6 build/kernel/src/kservice.o
+ .debug_info    0x000000000000892e      0x8af build/kernel/src/mem.o
+ .debug_info    0x00000000000091dd      0x81b build/kernel/src/object.o
+ .debug_info    0x00000000000099f8      0x7e1 build/kernel/src/scheduler.o
+ .debug_info    0x000000000000a1d9      0xd1a build/kernel/src/thread.o
+ .debug_info    0x000000000000aef3      0x961 build/kernel/src/timer.o
+ .debug_info    0x000000000000b854      0x4d9 build/kernel/libcpu/arm/cortex-m3/cpuport.o
+ .debug_info    0x000000000000bd2d       0x96 build/kernel/libcpu/arm/cortex-m3/context_gcc.o
+ .debug_info    0x000000000000bdc3     0x129d build/kernel/components/drivers/serial/serial.o
+ .debug_info    0x000000000000d060      0x629 build/kernel/components/drivers/src/completion.o
+ .debug_info    0x000000000000d689      0x84f build/kernel/components/drivers/src/dataqueue.o
+ .debug_info    0x000000000000ded8     0x18ef build/kernel/components/finsh/cmd.o
+ .debug_info    0x000000000000f7c7      0x296 build/kernel/components/libc/compilers/minilibc/stdlib.o
 
-.debug_abbrev   0x0000000000000000     0x32ca
+.debug_abbrev   0x0000000000000000     0x3298
  .debug_abbrev  0x0000000000000000       0xdb build/applications/main.o
- .debug_abbrev  0x00000000000000db      0x16b build/board/board.o
- .debug_abbrev  0x0000000000000246      0x33a build/board/drv_usart.o
- .debug_abbrev  0x0000000000000580      0x1a9 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
- .debug_abbrev  0x0000000000000729      0x133 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
- .debug_abbrev  0x000000000000085c      0x1b5 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
- .debug_abbrev  0x0000000000000a11      0x193 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
- .debug_abbrev  0x0000000000000ba4       0xed Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
- .debug_abbrev  0x0000000000000c91       0x12 Libraries/CMSIS/GD/GD32F10x/Source/GCC/startup_gd32f10x_hd.o
- .debug_abbrev  0x0000000000000ca3      0x18a build/kernel/src/clock.o
- .debug_abbrev  0x0000000000000e2d      0x19f build/kernel/src/components.o
- .debug_abbrev  0x0000000000000fcc      0x1fd build/kernel/src/device.o
- .debug_abbrev  0x00000000000011c9      0x207 build/kernel/src/idle.o
- .debug_abbrev  0x00000000000013d0      0x249 build/kernel/src/ipc.o
- .debug_abbrev  0x0000000000001619      0x156 build/kernel/src/irq.o
- .debug_abbrev  0x000000000000176f      0x311 build/kernel/src/kservice.o
- .debug_abbrev  0x0000000000001a80      0x251 build/kernel/src/mem.o
- .debug_abbrev  0x0000000000001cd1      0x257 build/kernel/src/object.o
- .debug_abbrev  0x0000000000001f28      0x249 build/kernel/src/scheduler.o
- .debug_abbrev  0x0000000000002171      0x25e build/kernel/src/thread.o
- .debug_abbrev  0x00000000000023cf      0x2cd build/kernel/src/timer.o
- .debug_abbrev  0x000000000000269c      0x20e build/kernel/libcpu/arm/cortex-m3/cpuport.o
- .debug_abbrev  0x00000000000028aa       0x14 build/kernel/libcpu/arm/cortex-m3/context_gcc.o
- .debug_abbrev  0x00000000000028be      0x271 build/kernel/components/drivers/serial/serial.o
- .debug_abbrev  0x0000000000002b2f      0x1c3 build/kernel/components/drivers/src/completion.o
- .debug_abbrev  0x0000000000002cf2      0x1f5 build/kernel/components/drivers/src/dataqueue.o
- .debug_abbrev  0x0000000000002ee7      0x292 build/kernel/components/finsh/cmd.o
- .debug_abbrev  0x0000000000003179      0x151 build/kernel/components/libc/compilers/minilibc/stdlib.o
+ .debug_abbrev  0x00000000000000db      0x153 build/board/board.o
+ .debug_abbrev  0x000000000000022e      0x320 build/board/drv_usart.o
+ .debug_abbrev  0x000000000000054e      0x1a9 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
+ .debug_abbrev  0x00000000000006f7      0x133 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
+ .debug_abbrev  0x000000000000082a      0x1b5 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
+ .debug_abbrev  0x00000000000009df      0x193 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
+ .debug_abbrev  0x0000000000000b72       0xed Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
+ .debug_abbrev  0x0000000000000c5f       0x12 Libraries/CMSIS/GD/GD32F10x/Source/GCC/startup_gd32f10x_hd.o
+ .debug_abbrev  0x0000000000000c71      0x18a build/kernel/src/clock.o
+ .debug_abbrev  0x0000000000000dfb      0x19f build/kernel/src/components.o
+ .debug_abbrev  0x0000000000000f9a      0x1fd build/kernel/src/device.o
+ .debug_abbrev  0x0000000000001197      0x207 build/kernel/src/idle.o
+ .debug_abbrev  0x000000000000139e      0x249 build/kernel/src/ipc.o
+ .debug_abbrev  0x00000000000015e7      0x156 build/kernel/src/irq.o
+ .debug_abbrev  0x000000000000173d      0x311 build/kernel/src/kservice.o
+ .debug_abbrev  0x0000000000001a4e      0x251 build/kernel/src/mem.o
+ .debug_abbrev  0x0000000000001c9f      0x257 build/kernel/src/object.o
+ .debug_abbrev  0x0000000000001ef6      0x249 build/kernel/src/scheduler.o
+ .debug_abbrev  0x000000000000213f      0x25e build/kernel/src/thread.o
+ .debug_abbrev  0x000000000000239d      0x2cd build/kernel/src/timer.o
+ .debug_abbrev  0x000000000000266a      0x20e build/kernel/libcpu/arm/cortex-m3/cpuport.o
+ .debug_abbrev  0x0000000000002878       0x14 build/kernel/libcpu/arm/cortex-m3/context_gcc.o
+ .debug_abbrev  0x000000000000288c      0x271 build/kernel/components/drivers/serial/serial.o
+ .debug_abbrev  0x0000000000002afd      0x1c3 build/kernel/components/drivers/src/completion.o
+ .debug_abbrev  0x0000000000002cc0      0x1f5 build/kernel/components/drivers/src/dataqueue.o
+ .debug_abbrev  0x0000000000002eb5      0x292 build/kernel/components/finsh/cmd.o
+ .debug_abbrev  0x0000000000003147      0x151 build/kernel/components/libc/compilers/minilibc/stdlib.o
 
-.debug_loc      0x0000000000000000     0x81e1
+.debug_loc      0x0000000000000000     0x819d
  .debug_loc     0x0000000000000000       0x2c build/applications/main.o
  .debug_loc     0x000000000000002c      0x168 build/board/board.o
- .debug_loc     0x0000000000000194      0x3b4 build/board/drv_usart.o
- .debug_loc     0x0000000000000548      0x5b0 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
- .debug_loc     0x0000000000000af8      0x278 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
- .debug_loc     0x0000000000000d70      0xc26 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
- .debug_loc     0x0000000000001996      0xf5c build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
- .debug_loc     0x00000000000028f2      0x110 Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
- .debug_loc     0x0000000000002a02      0x184 build/kernel/src/clock.o
- .debug_loc     0x0000000000002b86      0x2a8 build/kernel/src/components.o
- .debug_loc     0x0000000000002e2e      0x454 build/kernel/src/device.o
- .debug_loc     0x0000000000003282      0x268 build/kernel/src/idle.o
- .debug_loc     0x00000000000034ea      0xe84 build/kernel/src/ipc.o
- .debug_loc     0x000000000000436e      0x1a8 build/kernel/src/irq.o
- .debug_loc     0x0000000000004516      0xb00 build/kernel/src/kservice.o
- .debug_loc     0x0000000000005016      0x320 build/kernel/src/mem.o
- .debug_loc     0x0000000000005336      0x554 build/kernel/src/object.o
- .debug_loc     0x000000000000588a      0x400 build/kernel/src/scheduler.o
- .debug_loc     0x0000000000005c8a      0x818 build/kernel/src/thread.o
- .debug_loc     0x00000000000064a2      0x658 build/kernel/src/timer.o
- .debug_loc     0x0000000000006afa      0x284 build/kernel/libcpu/arm/cortex-m3/cpuport.o
- .debug_loc     0x0000000000006d7e      0x5ce build/kernel/components/drivers/serial/serial.o
- .debug_loc     0x000000000000734c      0x204 build/kernel/components/drivers/src/completion.o
- .debug_loc     0x0000000000007550      0x2a4 build/kernel/components/drivers/src/dataqueue.o
- .debug_loc     0x00000000000077f4      0x7f5 build/kernel/components/finsh/cmd.o
- .debug_loc     0x0000000000007fe9      0x1f8 build/kernel/components/libc/compilers/minilibc/stdlib.o
+ .debug_loc     0x0000000000000194      0x370 build/board/drv_usart.o
+ .debug_loc     0x0000000000000504      0x5b0 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
+ .debug_loc     0x0000000000000ab4      0x278 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
+ .debug_loc     0x0000000000000d2c      0xc26 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
+ .debug_loc     0x0000000000001952      0xf5c build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
+ .debug_loc     0x00000000000028ae      0x110 Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
+ .debug_loc     0x00000000000029be      0x184 build/kernel/src/clock.o
+ .debug_loc     0x0000000000002b42      0x2a8 build/kernel/src/components.o
+ .debug_loc     0x0000000000002dea      0x454 build/kernel/src/device.o
+ .debug_loc     0x000000000000323e      0x268 build/kernel/src/idle.o
+ .debug_loc     0x00000000000034a6      0xe84 build/kernel/src/ipc.o
+ .debug_loc     0x000000000000432a      0x1a8 build/kernel/src/irq.o
+ .debug_loc     0x00000000000044d2      0xb00 build/kernel/src/kservice.o
+ .debug_loc     0x0000000000004fd2      0x320 build/kernel/src/mem.o
+ .debug_loc     0x00000000000052f2      0x554 build/kernel/src/object.o
+ .debug_loc     0x0000000000005846      0x400 build/kernel/src/scheduler.o
+ .debug_loc     0x0000000000005c46      0x818 build/kernel/src/thread.o
+ .debug_loc     0x000000000000645e      0x658 build/kernel/src/timer.o
+ .debug_loc     0x0000000000006ab6      0x284 build/kernel/libcpu/arm/cortex-m3/cpuport.o
+ .debug_loc     0x0000000000006d3a      0x5ce build/kernel/components/drivers/serial/serial.o
+ .debug_loc     0x0000000000007308      0x204 build/kernel/components/drivers/src/completion.o
+ .debug_loc     0x000000000000750c      0x2a4 build/kernel/components/drivers/src/dataqueue.o
+ .debug_loc     0x00000000000077b0      0x7f5 build/kernel/components/finsh/cmd.o
+ .debug_loc     0x0000000000007fa5      0x1f8 build/kernel/components/libc/compilers/minilibc/stdlib.o
 
-.debug_aranges  0x0000000000000000      0xf68
+.debug_aranges  0x0000000000000000      0xf60
  .debug_aranges
                 0x0000000000000000       0x20 build/applications/main.o
  .debug_aranges
                 0x0000000000000020       0x48 build/board/board.o
  .debug_aranges
-                0x0000000000000068       0x78 build/board/drv_usart.o
+                0x0000000000000068       0x70 build/board/drv_usart.o
  .debug_aranges
-                0x00000000000000e0       0xa0 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
+                0x00000000000000d8       0xa0 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
  .debug_aranges
-                0x0000000000000180       0x50 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
+                0x0000000000000178       0x50 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
  .debug_aranges
-                0x00000000000001d0      0x138 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
+                0x00000000000001c8      0x138 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
  .debug_aranges
-                0x0000000000000308      0x170 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
+                0x0000000000000300      0x170 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
  .debug_aranges
-                0x0000000000000478       0x38 Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
+                0x0000000000000470       0x38 Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
  .debug_aranges
-                0x00000000000004b0       0x28 Libraries/CMSIS/GD/GD32F10x/Source/GCC/startup_gd32f10x_hd.o
+                0x00000000000004a8       0x28 Libraries/CMSIS/GD/GD32F10x/Source/GCC/startup_gd32f10x_hd.o
  .debug_aranges
-                0x00000000000004d8       0x40 build/kernel/src/clock.o
+                0x00000000000004d0       0x40 build/kernel/src/clock.o
  .debug_aranges
-                0x0000000000000518       0x68 build/kernel/src/components.o
+                0x0000000000000510       0x68 build/kernel/src/components.o
  .debug_aranges
-                0x0000000000000580       0x88 build/kernel/src/device.o
+                0x0000000000000578       0x88 build/kernel/src/device.o
  .debug_aranges
-                0x0000000000000608       0x58 build/kernel/src/idle.o
+                0x0000000000000600       0x58 build/kernel/src/idle.o
  .debug_aranges
-                0x0000000000000660      0x188 build/kernel/src/ipc.o
+                0x0000000000000658      0x188 build/kernel/src/ipc.o
  .debug_aranges
-                0x00000000000007e8       0x40 build/kernel/src/irq.o
+                0x00000000000007e0       0x40 build/kernel/src/irq.o
  .debug_aranges
-                0x0000000000000828      0x118 build/kernel/src/kservice.o
+                0x0000000000000820      0x118 build/kernel/src/kservice.o
  .debug_aranges
-                0x0000000000000940       0x68 build/kernel/src/mem.o
+                0x0000000000000938       0x68 build/kernel/src/mem.o
  .debug_aranges
-                0x00000000000009a8       0x98 build/kernel/src/object.o
+                0x00000000000009a0       0x98 build/kernel/src/object.o
  .debug_aranges
-                0x0000000000000a40       0x88 build/kernel/src/scheduler.o
+                0x0000000000000a38       0x88 build/kernel/src/scheduler.o
  .debug_aranges
-                0x0000000000000ac8       0xe0 build/kernel/src/thread.o
+                0x0000000000000ac0       0xe0 build/kernel/src/thread.o
  .debug_aranges
-                0x0000000000000ba8       0xb8 build/kernel/src/timer.o
+                0x0000000000000ba0       0xb8 build/kernel/src/timer.o
  .debug_aranges
-                0x0000000000000c60       0x68 build/kernel/libcpu/arm/cortex-m3/cpuport.o
+                0x0000000000000c58       0x68 build/kernel/libcpu/arm/cortex-m3/cpuport.o
  .debug_aranges
-                0x0000000000000cc8       0x20 build/kernel/libcpu/arm/cortex-m3/context_gcc.o
+                0x0000000000000cc0       0x20 build/kernel/libcpu/arm/cortex-m3/context_gcc.o
  .debug_aranges
-                0x0000000000000ce8       0xb0 build/kernel/components/drivers/serial/serial.o
+                0x0000000000000ce0       0xb0 build/kernel/components/drivers/serial/serial.o
  .debug_aranges
-                0x0000000000000d98       0x48 build/kernel/components/drivers/src/completion.o
+                0x0000000000000d90       0x48 build/kernel/components/drivers/src/completion.o
  .debug_aranges
-                0x0000000000000de0       0x58 build/kernel/components/drivers/src/dataqueue.o
+                0x0000000000000dd8       0x58 build/kernel/components/drivers/src/dataqueue.o
  .debug_aranges
-                0x0000000000000e38       0xe8 build/kernel/components/finsh/cmd.o
+                0x0000000000000e30       0xe8 build/kernel/components/finsh/cmd.o
  .debug_aranges
-                0x0000000000000f20       0x48 build/kernel/components/libc/compilers/minilibc/stdlib.o
+                0x0000000000000f18       0x48 build/kernel/components/libc/compilers/minilibc/stdlib.o
 
-.debug_ranges   0x0000000000000000      0xe18
+.debug_ranges   0x0000000000000000      0xe10
  .debug_ranges  0x0000000000000000       0x10 build/applications/main.o
  .debug_ranges  0x0000000000000010       0x38 build/board/board.o
- .debug_ranges  0x0000000000000048       0x68 build/board/drv_usart.o
- .debug_ranges  0x00000000000000b0       0x90 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
- .debug_ranges  0x0000000000000140       0x40 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
- .debug_ranges  0x0000000000000180      0x128 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
- .debug_ranges  0x00000000000002a8      0x160 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
- .debug_ranges  0x0000000000000408       0x28 Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
- .debug_ranges  0x0000000000000430       0x20 Libraries/CMSIS/GD/GD32F10x/Source/GCC/startup_gd32f10x_hd.o
- .debug_ranges  0x0000000000000450       0x30 build/kernel/src/clock.o
- .debug_ranges  0x0000000000000480       0x58 build/kernel/src/components.o
- .debug_ranges  0x00000000000004d8       0x78 build/kernel/src/device.o
- .debug_ranges  0x0000000000000550       0x48 build/kernel/src/idle.o
- .debug_ranges  0x0000000000000598      0x178 build/kernel/src/ipc.o
- .debug_ranges  0x0000000000000710       0x30 build/kernel/src/irq.o
- .debug_ranges  0x0000000000000740      0x108 build/kernel/src/kservice.o
- .debug_ranges  0x0000000000000848       0x58 build/kernel/src/mem.o
- .debug_ranges  0x00000000000008a0       0x88 build/kernel/src/object.o
- .debug_ranges  0x0000000000000928       0x78 build/kernel/src/scheduler.o
- .debug_ranges  0x00000000000009a0       0xd0 build/kernel/src/thread.o
- .debug_ranges  0x0000000000000a70       0xc0 build/kernel/src/timer.o
- .debug_ranges  0x0000000000000b30       0x70 build/kernel/libcpu/arm/cortex-m3/cpuport.o
- .debug_ranges  0x0000000000000ba0       0xe8 build/kernel/components/drivers/serial/serial.o
- .debug_ranges  0x0000000000000c88       0x38 build/kernel/components/drivers/src/completion.o
- .debug_ranges  0x0000000000000cc0       0x48 build/kernel/components/drivers/src/dataqueue.o
- .debug_ranges  0x0000000000000d08       0xd8 build/kernel/components/finsh/cmd.o
- .debug_ranges  0x0000000000000de0       0x38 build/kernel/components/libc/compilers/minilibc/stdlib.o
+ .debug_ranges  0x0000000000000048       0x60 build/board/drv_usart.o
+ .debug_ranges  0x00000000000000a8       0x90 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
+ .debug_ranges  0x0000000000000138       0x40 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
+ .debug_ranges  0x0000000000000178      0x128 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
+ .debug_ranges  0x00000000000002a0      0x160 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
+ .debug_ranges  0x0000000000000400       0x28 Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
+ .debug_ranges  0x0000000000000428       0x20 Libraries/CMSIS/GD/GD32F10x/Source/GCC/startup_gd32f10x_hd.o
+ .debug_ranges  0x0000000000000448       0x30 build/kernel/src/clock.o
+ .debug_ranges  0x0000000000000478       0x58 build/kernel/src/components.o
+ .debug_ranges  0x00000000000004d0       0x78 build/kernel/src/device.o
+ .debug_ranges  0x0000000000000548       0x48 build/kernel/src/idle.o
+ .debug_ranges  0x0000000000000590      0x178 build/kernel/src/ipc.o
+ .debug_ranges  0x0000000000000708       0x30 build/kernel/src/irq.o
+ .debug_ranges  0x0000000000000738      0x108 build/kernel/src/kservice.o
+ .debug_ranges  0x0000000000000840       0x58 build/kernel/src/mem.o
+ .debug_ranges  0x0000000000000898       0x88 build/kernel/src/object.o
+ .debug_ranges  0x0000000000000920       0x78 build/kernel/src/scheduler.o
+ .debug_ranges  0x0000000000000998       0xd0 build/kernel/src/thread.o
+ .debug_ranges  0x0000000000000a68       0xc0 build/kernel/src/timer.o
+ .debug_ranges  0x0000000000000b28       0x70 build/kernel/libcpu/arm/cortex-m3/cpuport.o
+ .debug_ranges  0x0000000000000b98       0xe8 build/kernel/components/drivers/serial/serial.o
+ .debug_ranges  0x0000000000000c80       0x38 build/kernel/components/drivers/src/completion.o
+ .debug_ranges  0x0000000000000cb8       0x48 build/kernel/components/drivers/src/dataqueue.o
+ .debug_ranges  0x0000000000000d00       0xd8 build/kernel/components/finsh/cmd.o
+ .debug_ranges  0x0000000000000dd8       0x38 build/kernel/components/libc/compilers/minilibc/stdlib.o
 
-.debug_line     0x0000000000000000     0x5747
+.debug_line     0x0000000000000000     0x5734
  .debug_line    0x0000000000000000      0x1cc build/applications/main.o
  .debug_line    0x00000000000001cc      0x16c build/board/board.o
- .debug_line    0x0000000000000338      0x388 build/board/drv_usart.o
- .debug_line    0x00000000000006c0      0x329 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
- .debug_line    0x00000000000009e9      0x19a build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
- .debug_line    0x0000000000000b83      0x4d0 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
- .debug_line    0x0000000000001053      0x4d4 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
- .debug_line    0x0000000000001527      0x1a2 Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
- .debug_line    0x00000000000016c9       0x9b Libraries/CMSIS/GD/GD32F10x/Source/GCC/startup_gd32f10x_hd.o
- .debug_line    0x0000000000001764      0x124 build/kernel/src/clock.o
- .debug_line    0x0000000000001888      0x1b4 build/kernel/src/components.o
- .debug_line    0x0000000000001a3c      0x2eb build/kernel/src/device.o
- .debug_line    0x0000000000001d27      0x1e6 build/kernel/src/idle.o
- .debug_line    0x0000000000001f0d      0xba2 build/kernel/src/ipc.o
- .debug_line    0x0000000000002aaf      0x12d build/kernel/src/irq.o
- .debug_line    0x0000000000002bdc      0x5f9 build/kernel/src/kservice.o
- .debug_line    0x00000000000031d5      0x376 build/kernel/src/mem.o
- .debug_line    0x000000000000354b      0x30d build/kernel/src/object.o
- .debug_line    0x0000000000003858      0x270 build/kernel/src/scheduler.o
- .debug_line    0x0000000000003ac8      0x46e build/kernel/src/thread.o
- .debug_line    0x0000000000003f36      0x3a3 build/kernel/src/timer.o
- .debug_line    0x00000000000042d9      0x1fd build/kernel/libcpu/arm/cortex-m3/cpuport.o
- .debug_line    0x00000000000044d6       0xd7 build/kernel/libcpu/arm/cortex-m3/context_gcc.o
- .debug_line    0x00000000000045ad      0x5dc build/kernel/components/drivers/serial/serial.o
- .debug_line    0x0000000000004b89      0x1f9 build/kernel/components/drivers/src/completion.o
- .debug_line    0x0000000000004d82      0x2c3 build/kernel/components/drivers/src/dataqueue.o
- .debug_line    0x0000000000005045      0x516 build/kernel/components/finsh/cmd.o
- .debug_line    0x000000000000555b      0x1ec build/kernel/components/libc/compilers/minilibc/stdlib.o
+ .debug_line    0x0000000000000338      0x375 build/board/drv_usart.o
+ .debug_line    0x00000000000006ad      0x329 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
+ .debug_line    0x00000000000009d6      0x19a build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
+ .debug_line    0x0000000000000b70      0x4d0 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
+ .debug_line    0x0000000000001040      0x4d4 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
+ .debug_line    0x0000000000001514      0x1a2 Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
+ .debug_line    0x00000000000016b6       0x9b Libraries/CMSIS/GD/GD32F10x/Source/GCC/startup_gd32f10x_hd.o
+ .debug_line    0x0000000000001751      0x124 build/kernel/src/clock.o
+ .debug_line    0x0000000000001875      0x1b4 build/kernel/src/components.o
+ .debug_line    0x0000000000001a29      0x2eb build/kernel/src/device.o
+ .debug_line    0x0000000000001d14      0x1e6 build/kernel/src/idle.o
+ .debug_line    0x0000000000001efa      0xba2 build/kernel/src/ipc.o
+ .debug_line    0x0000000000002a9c      0x12d build/kernel/src/irq.o
+ .debug_line    0x0000000000002bc9      0x5f9 build/kernel/src/kservice.o
+ .debug_line    0x00000000000031c2      0x376 build/kernel/src/mem.o
+ .debug_line    0x0000000000003538      0x30d build/kernel/src/object.o
+ .debug_line    0x0000000000003845      0x270 build/kernel/src/scheduler.o
+ .debug_line    0x0000000000003ab5      0x46e build/kernel/src/thread.o
+ .debug_line    0x0000000000003f23      0x3a3 build/kernel/src/timer.o
+ .debug_line    0x00000000000042c6      0x1fd build/kernel/libcpu/arm/cortex-m3/cpuport.o
+ .debug_line    0x00000000000044c3       0xd7 build/kernel/libcpu/arm/cortex-m3/context_gcc.o
+ .debug_line    0x000000000000459a      0x5dc build/kernel/components/drivers/serial/serial.o
+ .debug_line    0x0000000000004b76      0x1f9 build/kernel/components/drivers/src/completion.o
+ .debug_line    0x0000000000004d6f      0x2c3 build/kernel/components/drivers/src/dataqueue.o
+ .debug_line    0x0000000000005032      0x516 build/kernel/components/finsh/cmd.o
+ .debug_line    0x0000000000005548      0x1ec build/kernel/components/libc/compilers/minilibc/stdlib.o
 
-.debug_str      0x0000000000000000     0x47c6
+.debug_str      0x0000000000000000     0x47b5
  .debug_str     0x0000000000000000      0x340 build/applications/main.o
                                         0x3a6 (size before relaxing)
  .debug_str     0x0000000000000340       0x94 build/board/board.o
-                                        0x28c (size before relaxing)
- .debug_str     0x00000000000003d4      0xb44 build/board/drv_usart.o
-                                        0xf88 (size before relaxing)
- .debug_str     0x0000000000000f18      0x3ce build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
+                                        0x279 (size before relaxing)
+ .debug_str     0x00000000000003d4      0xb33 build/board/drv_usart.o
+                                        0xf77 (size before relaxing)
+ .debug_str     0x0000000000000f07      0x3ce build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
                                         0x584 (size before relaxing)
- .debug_str     0x00000000000012e6      0x17b build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
+ .debug_str     0x00000000000012d5      0x17b build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
                                         0x3c0 (size before relaxing)
- .debug_str     0x0000000000001461      0x7e8 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
+ .debug_str     0x0000000000001450      0x7e8 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
                                         0xcf0 (size before relaxing)
- .debug_str     0x0000000000001c49      0x4fb build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
+ .debug_str     0x0000000000001c38      0x4fb build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
                                         0x931 (size before relaxing)
- .debug_str     0x0000000000002144       0x91 Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
+ .debug_str     0x0000000000002133       0x91 Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
                                         0x247 (size before relaxing)
- .debug_str     0x00000000000021d5      0x140 build/kernel/src/clock.o
+ .debug_str     0x00000000000021c4      0x140 build/kernel/src/clock.o
                                         0x3c6 (size before relaxing)
- .debug_str     0x0000000000002315      0x108 build/kernel/src/components.o
+ .debug_str     0x0000000000002304      0x108 build/kernel/src/components.o
                                         0x477 (size before relaxing)
- .debug_str     0x000000000000241d      0x2e5 build/kernel/src/device.o
+ .debug_str     0x000000000000240c      0x2e5 build/kernel/src/device.o
                                         0x7dc (size before relaxing)
- .debug_str     0x0000000000002702      0x113 build/kernel/src/idle.o
+ .debug_str     0x00000000000026f1      0x113 build/kernel/src/idle.o
                                         0x466 (size before relaxing)
- .debug_str     0x0000000000002815      0x48f build/kernel/src/ipc.o
+ .debug_str     0x0000000000002804      0x48f build/kernel/src/ipc.o
                                         0x97d (size before relaxing)
- .debug_str     0x0000000000002ca4       0xda build/kernel/src/irq.o
+ .debug_str     0x0000000000002c93       0xda build/kernel/src/irq.o
                                         0x2c6 (size before relaxing)
- .debug_str     0x0000000000002d7e      0x30f build/kernel/src/kservice.o
+ .debug_str     0x0000000000002d6d      0x30f build/kernel/src/kservice.o
                                         0x918 (size before relaxing)
- .debug_str     0x000000000000308d      0x21e build/kernel/src/mem.o
+ .debug_str     0x000000000000307c      0x21e build/kernel/src/mem.o
                                         0x4d9 (size before relaxing)
- .debug_str     0x00000000000032ab      0x2a0 build/kernel/src/object.o
+ .debug_str     0x000000000000329a      0x2a0 build/kernel/src/object.o
                                         0x6e6 (size before relaxing)
- .debug_str     0x000000000000354b      0x1a1 build/kernel/src/scheduler.o
+ .debug_str     0x000000000000353a      0x1a1 build/kernel/src/scheduler.o
                                         0x58e (size before relaxing)
- .debug_str     0x00000000000036ec      0x1ed build/kernel/src/thread.o
+ .debug_str     0x00000000000036db      0x1ed build/kernel/src/thread.o
                                         0x7a2 (size before relaxing)
- .debug_str     0x00000000000038d9      0x1b8 build/kernel/src/timer.o
+ .debug_str     0x00000000000038c8      0x1b8 build/kernel/src/timer.o
                                         0x647 (size before relaxing)
- .debug_str     0x0000000000003a91      0x1ad build/kernel/libcpu/arm/cortex-m3/cpuport.o
+ .debug_str     0x0000000000003a80      0x1ad build/kernel/libcpu/arm/cortex-m3/cpuport.o
                                         0x3ea (size before relaxing)
- .debug_str     0x0000000000003c3e      0x2d5 build/kernel/components/drivers/serial/serial.o
+ .debug_str     0x0000000000003c2d      0x2d5 build/kernel/components/drivers/serial/serial.o
                                         0x902 (size before relaxing)
- .debug_str     0x0000000000003f13       0x80 build/kernel/components/drivers/src/completion.o
+ .debug_str     0x0000000000003f02       0x80 build/kernel/components/drivers/src/completion.o
                                         0x43e (size before relaxing)
- .debug_str     0x0000000000003f93       0x9e build/kernel/components/drivers/src/dataqueue.o
+ .debug_str     0x0000000000003f82       0x9e build/kernel/components/drivers/src/dataqueue.o
                                         0x4e1 (size before relaxing)
- .debug_str     0x0000000000004031      0x73b build/kernel/components/finsh/cmd.o
+ .debug_str     0x0000000000004020      0x73b build/kernel/components/finsh/cmd.o
                                        0x113b (size before relaxing)
- .debug_str     0x000000000000476c       0x5a build/kernel/components/libc/compilers/minilibc/stdlib.o
+ .debug_str     0x000000000000475b       0x5a build/kernel/components/libc/compilers/minilibc/stdlib.o
                                         0x257 (size before relaxing)
 
 .comment        0x0000000000000000       0x6e
@@ -4169,37 +4167,37 @@ OUTPUT(rtthread-gd32f10x.elf elf32-littlearm)
  .comment       0x000000000000006e       0x6f build/kernel/components/finsh/cmd.o
  .comment       0x000000000000006e       0x6f build/kernel/components/libc/compilers/minilibc/stdlib.o
 
-.debug_frame    0x0000000000000000     0x3e18
+.debug_frame    0x0000000000000000     0x3df8
  .debug_frame   0x0000000000000000       0x2c build/applications/main.o
  .debug_frame   0x000000000000002c       0xcc build/board/board.o
- .debug_frame   0x00000000000000f8      0x1c0 build/board/drv_usart.o
- .debug_frame   0x00000000000002b8      0x298 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
- .debug_frame   0x0000000000000550      0x124 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
- .debug_frame   0x0000000000000674      0x574 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
- .debug_frame   0x0000000000000be8      0x6c0 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
- .debug_frame   0x00000000000012a8       0x98 Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
- .debug_frame   0x0000000000001340       0xc0 build/kernel/src/clock.o
- .debug_frame   0x0000000000001400      0x158 build/kernel/src/components.o
- .debug_frame   0x0000000000001558      0x20c build/kernel/src/device.o
- .debug_frame   0x0000000000001764      0x130 build/kernel/src/idle.o
- .debug_frame   0x0000000000001894      0x6cc build/kernel/src/ipc.o
- .debug_frame   0x0000000000001f60       0xcc build/kernel/src/irq.o
- .debug_frame   0x000000000000202c      0x510 build/kernel/src/kservice.o
- .debug_frame   0x000000000000253c      0x180 build/kernel/src/mem.o
- .debug_frame   0x00000000000026bc      0x27c build/kernel/src/object.o
- .debug_frame   0x0000000000002938      0x214 build/kernel/src/scheduler.o
- .debug_frame   0x0000000000002b4c      0x3cc build/kernel/src/thread.o
- .debug_frame   0x0000000000002f18      0x300 build/kernel/src/timer.o
- .debug_frame   0x0000000000003218      0x158 build/kernel/libcpu/arm/cortex-m3/cpuport.o
- .debug_frame   0x0000000000003370      0x2c4 build/kernel/components/drivers/serial/serial.o
- .debug_frame   0x0000000000003634       0xf4 build/kernel/components/drivers/src/completion.o
- .debug_frame   0x0000000000003728      0x140 build/kernel/components/drivers/src/dataqueue.o
- .debug_frame   0x0000000000003868      0x3e8 build/kernel/components/finsh/cmd.o
- .debug_frame   0x0000000000003c50       0xf0 build/kernel/components/libc/compilers/minilibc/stdlib.o
- .debug_frame   0x0000000000003d40       0x50 /opt/gcc-arm-none-eabi-6_2-2016q4/bin/../lib/gcc/arm-none-eabi/6.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-__call_atexit.o)
- .debug_frame   0x0000000000003d90       0x20 /opt/gcc-arm-none-eabi-6_2-2016q4/bin/../lib/gcc/arm-none-eabi/6.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-atexit.o)
- .debug_frame   0x0000000000003db0       0x34 /opt/gcc-arm-none-eabi-6_2-2016q4/bin/../lib/gcc/arm-none-eabi/6.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-fini.o)
- .debug_frame   0x0000000000003de4       0x34 /opt/gcc-arm-none-eabi-6_2-2016q4/bin/../lib/gcc/arm-none-eabi/6.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-__atexit.o)
+ .debug_frame   0x00000000000000f8      0x1a0 build/board/drv_usart.o
+ .debug_frame   0x0000000000000298      0x298 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_gpio.o
+ .debug_frame   0x0000000000000530      0x124 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_misc.o
+ .debug_frame   0x0000000000000654      0x574 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_rcu.o
+ .debug_frame   0x0000000000000bc8      0x6c0 build/Libraries/GD32F10x_standard_peripheral/Source/gd32f10x_usart.o
+ .debug_frame   0x0000000000001288       0x98 Libraries/CMSIS/GD/GD32F10x/Source/system_gd32f10x.o
+ .debug_frame   0x0000000000001320       0xc0 build/kernel/src/clock.o
+ .debug_frame   0x00000000000013e0      0x158 build/kernel/src/components.o
+ .debug_frame   0x0000000000001538      0x20c build/kernel/src/device.o
+ .debug_frame   0x0000000000001744      0x130 build/kernel/src/idle.o
+ .debug_frame   0x0000000000001874      0x6cc build/kernel/src/ipc.o
+ .debug_frame   0x0000000000001f40       0xcc build/kernel/src/irq.o
+ .debug_frame   0x000000000000200c      0x510 build/kernel/src/kservice.o
+ .debug_frame   0x000000000000251c      0x180 build/kernel/src/mem.o
+ .debug_frame   0x000000000000269c      0x27c build/kernel/src/object.o
+ .debug_frame   0x0000000000002918      0x214 build/kernel/src/scheduler.o
+ .debug_frame   0x0000000000002b2c      0x3cc build/kernel/src/thread.o
+ .debug_frame   0x0000000000002ef8      0x300 build/kernel/src/timer.o
+ .debug_frame   0x00000000000031f8      0x158 build/kernel/libcpu/arm/cortex-m3/cpuport.o
+ .debug_frame   0x0000000000003350      0x2c4 build/kernel/components/drivers/serial/serial.o
+ .debug_frame   0x0000000000003614       0xf4 build/kernel/components/drivers/src/completion.o
+ .debug_frame   0x0000000000003708      0x140 build/kernel/components/drivers/src/dataqueue.o
+ .debug_frame   0x0000000000003848      0x3e8 build/kernel/components/finsh/cmd.o
+ .debug_frame   0x0000000000003c30       0xf0 build/kernel/components/libc/compilers/minilibc/stdlib.o
+ .debug_frame   0x0000000000003d20       0x50 /opt/gcc-arm-none-eabi-6_2-2016q4/bin/../lib/gcc/arm-none-eabi/6.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000003d70       0x20 /opt/gcc-arm-none-eabi-6_2-2016q4/bin/../lib/gcc/arm-none-eabi/6.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000003d90       0x34 /opt/gcc-arm-none-eabi-6_2-2016q4/bin/../lib/gcc/arm-none-eabi/6.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-fini.o)
+ .debug_frame   0x0000000000003dc4       0x34 /opt/gcc-arm-none-eabi-6_2-2016q4/bin/../lib/gcc/arm-none-eabi/6.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/libc.a(lib_a-__atexit.o)
 
 Cross Reference Table
 
@@ -5116,7 +5114,6 @@ rt_hw_serial_register                             build/kernel/components/driver
 rt_hw_show_memory                                 build/kernel/libcpu/arm/common/showmem.o
 rt_hw_stack_init                                  build/kernel/libcpu/arm/cortex-m3/cpuport.o
                                                   build/kernel/src/thread.o
-rt_hw_usart_init                                  build/board/drv_usart.o
 rt_interrupt_enter                                build/kernel/src/irq.o
                                                   build/board/drv_usart.o
                                                   build/board/board.o

@@ -377,11 +377,6 @@ int gd32_hw_usart_init(void)
     return 0;
 }
 
-int rt_hw_usart_init(void)
-{
-
-
-}
 
 INIT_BOARD_EXPORT(gd32_hw_usart_init);
 #endif

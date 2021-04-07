@@ -33,7 +33,7 @@ int main(void)
     while (1)
     {
 
-        rt_kprintf("test");
+        rt_kprintf("test\r\n");
         rt_thread_mdelay(1000);
 
         gpio_bit_reset(GPIOA, GPIO_PIN_0);
