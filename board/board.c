@@ -12,6 +12,7 @@
 #include <rthw.h>
 #include <rtthread.h>
 #include "drv_usart.h"
+#include "board.h"
 
 
 #define _SCB_BASE       (0xE000E010UL)
@@ -30,6 +31,9 @@ extern void SystemCoreClockUpdate(void);
 // core clock.
 extern uint32_t SystemCoreClock;
 
+
+//static int gd_uart_init(void);
+//void rt_hw_console_output(const char *str);
 
 /**
   * @brief  This function is executed in case of error occurrence.
@@ -62,8 +66,9 @@ static uint32_t _SysTick_Config(rt_uint32_t ticks)
     return 0;
 }
 
+
 #if defined(RT_USING_USER_MAIN) && defined(RT_USING_HEAP)
-#define RT_HEAP_SIZE 4096
+#define RT_HEAP_SIZE 4096*2
 static uint32_t rt_heap[RT_HEAP_SIZE];	// heap default size: 4K(1024 * 4)
 RT_WEAK void *rt_heap_begin_get(void)
 {
@@ -81,6 +86,17 @@ RT_WEAK void *rt_heap_end_get(void)
  */
 void rt_hw_board_init()
 {
+
+        /* NVIC Configuration */
+#define NVIC_VTOR_MASK              0x3FFFFF80
+#ifdef  VECT_TAB_RAM
+    /* Set the Vector Table base location at 0x10000000 */
+    SCB->VTOR  = (0x10000000 & NVIC_VTOR_MASK);
+#else  /* VECT_TAB_FLASH  */
+    /* Set the Vector Table base location at 0x08000000 */
+    SCB->VTOR  = (0x08000000 & NVIC_VTOR_MASK);
+#endif
+
 	/* System Clock Update */
 	SystemCoreClockUpdate();
 
@@ -97,9 +113,13 @@ void rt_hw_board_init()
 	rt_console_set_device(RT_CONSOLE_DEVICE_NAME);
 #endif
 
+
 #if defined(RT_USING_USER_MAIN) && defined(RT_USING_HEAP)
-    rt_system_heap_init(rt_heap_begin_get(), rt_heap_end_get());
+    //rt_system_heap_init(rt_heap_begin_get(), rt_heap_end_get()); // not use at this moment.
+    rt_system_heap_init((void*)HEAP_BEGIN, (void*)HEAP_END);
 #endif
+
+
 }
 
 void SysTick_Handler(void)
@@ -112,3 +132,5 @@ void SysTick_Handler(void)
 	/* leave interrupt */
 	rt_interrupt_leave();
 }
+
+

@@ -14,6 +14,6 @@
 
 #ifndef __USART_H__
 #define __USART_H__
-
 int gd32_hw_usart_init(void);
+
 #endif

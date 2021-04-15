@@ -13,19 +13,18 @@
 
 #include <rtthread.h>
 #include <gd32f10x.h>
-/* #include "drv_common.h" */
-/* #include "drv_gpio.h" */
+
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
 #define GD32_FLASH_START_ADRESS     ((uint32_t)0x08000000)
-#define GD32_FLASH_SIZE             (256 * 1024)
+#define GD32_FLASH_SIZE             (512 * 1024)
 #define GD32_FLASH_END_ADDRESS      ((uint32_t)(GD32_FLASH_START_ADRESS + GD32_FLASH_SIZE))
 
 /* Internal SRAM memory size[Kbytes] <8-64>, Default: 64*/
-#define GD32_SRAM_SIZE      48
+#define GD32_SRAM_SIZE      64
 #define GD32_SRAM_END       (0x20000000 + GD32_SRAM_SIZE * 1024)
 
 #if defined(__CC_ARM) || defined(__CLANG_ARM)

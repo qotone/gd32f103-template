@@ -18,6 +18,7 @@
 #include <rtthread.h>
 #include "gd32f10x.h"
 
+
 #ifdef RT_USING_SERIAL
 
 #define UART_ENABLE_IRQ(n)            NVIC_EnableIRQ((n))
@@ -57,6 +58,7 @@ struct rt_serial_device serial0;
 
 void USART0_IRQHandler(void)
 {
+
     /* enter interrupt */
     rt_interrupt_enter();
 
@@ -218,6 +220,8 @@ void gd32_uart_gpio_init(struct gd32_uart *uart)
 
     NVIC_SetPriority(uart->irqn, 0);
     NVIC_EnableIRQ(uart->irqn);
+
+
 }
 
 static rt_err_t gd32_configure(struct rt_serial_device *serial, struct serial_configure *cfg)
@@ -267,6 +271,8 @@ static rt_err_t gd32_configure(struct rt_serial_device *serial, struct serial_co
         break;
     }
 
+    //usart_hardware_flow_rts_config(uart->uart_periph, USART_RTS_DISABLE);
+    //usart_hardware_flow_cts_config(uart->uart_periph, USART_CTS_DISABLE);
     usart_receive_config(uart->uart_periph, USART_RECEIVE_ENABLE);
     usart_transmit_config(uart->uart_periph, USART_TRANSMIT_ENABLE);
     usart_enable(uart->uart_periph);
@@ -322,9 +328,11 @@ static int gd32_getc(struct rt_serial_device *serial)
     RT_ASSERT(serial != RT_NULL);
     uart = (struct gd32_uart *)serial->parent.user_data;
 
+
+
     ch = -1;
     if (usart_flag_get(uart->uart_periph, USART_FLAG_RBNE) != RESET)
-        ch = usart_data_receive(uart->uart_periph);
+        ch = (usart_data_receive(uart->uart_periph) & 0xff);
     return ch;
 }
 
@@ -343,6 +351,7 @@ static void uart_isr(struct rt_serial_device *serial)
     if ((usart_interrupt_flag_get(uart->uart_periph, USART_INT_FLAG_RBNE) != RESET) &&
             (usart_flag_get(uart->uart_periph, USART_FLAG_RBNE) != RESET))
     {
+    
         rt_hw_serial_isr(serial, RT_SERIAL_EVENT_RX_IND);
         /* Clear RXNE interrupt flag */
         usart_flag_clear(uart->uart_periph, USART_FLAG_RBNE);
@@ -376,6 +385,7 @@ int gd32_hw_usart_init(void)
 
     return 0;
 }
+
 
 
 INIT_BOARD_EXPORT(gd32_hw_usart_init);

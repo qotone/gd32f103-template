@@ -78,7 +78,7 @@
 #define RT_USING_DEVICE_IPC
 #define RT_PIPE_BUFSZ 512
 #define RT_USING_SERIAL
-#define RT_SERIAL_USING_DMA
+//#define RT_SERIAL_USING_DMA
 #define RT_SERIAL_RB_BUFSZ 64
 #define RT_USING_PIN
 
@@ -87,8 +87,8 @@
 
 /* POSIX layer and C standard library */
 
-#define RT_LIBC_USING_TIME
-
+//#define RT_LIBC_USING_TIME
+#define RT_USING_LIBC
 /* Network */
 
 /* Socket abstraction layer */
@@ -148,23 +148,25 @@
 
 /* samples: kernel and components samples */
 
-#define SOC_FAMILY_STM32
-#define SOC_SERIES_STM32F1
+/* #define SOC_FAMILY_STM32
+#define SOC_SERIES_STM32F1 */
 
 /* Hardware Drivers Config */
 
-#define SOC_STM32F103C8
+//#define SOC_STM32F103C8
 
 /* Onboard Peripheral Drivers */
-
-#define BSP_USING_USB_TO_USART
+#ifndef GD32F10X_HD
+#define GD32F10X_HD
+#endif
+//#define BSP_USING_USB_TO_USART
 
 /* On-chip Peripheral Drivers */
-
+/* 
 #define BSP_USING_GPIO
 #define BSP_USING_UART
 #define BSP_USING_UART1
-#define BSP_UART1_RX_USING_DMA
+#define BSP_UART1_RX_USING_DMA */
 
 /* Board extended module Drivers */
 
